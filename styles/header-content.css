@@ -1,0 +1,49 @@
+.content-wrapper > .content-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 35px 200px 0px 275px;
+    justify-content: space-around;
+}
+.content-wrapper > .content-header > .text-zone > .simple-logo {
+    filter: invert();
+    padding: 5px;
+    width: 60px;
+}
+.content-wrapper > .content-header > .text-zone h1 {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.content-wrapper > .content-header > .text-zone p {
+    color: #c7c9d3;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+    margin-right: 35px;
+}
+.content-wrapper > .content-header > .text-zone strong {
+    color: white;
+}
+.content-wrapper > .content-header > .text-zone > .free-sign-up {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: #47cf73;
+    border-radius: 4px;
+    padding: 10px 16px;
+    transition: 0.1s;
+}
+.content-wrapper > .content-header > .text-zone > .free-sign-up:hover {
+    background-color: #2fb45a;
+}
+.content-wrapper > .content-header > .image-zone {
+    margin-left: 45px;
+}
+.content-wrapper > .content-header > .image-zone > .curved-img {
+    margin-top: 395px;
+    margin-left: 40px;
+}
+.content-wrapper > .content-header > .image-zone > .example-img {
+    position: absolute;
+}

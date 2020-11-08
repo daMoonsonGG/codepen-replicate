@@ -1,0 +1,62 @@
+.header {
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+}
+.header > .search-bar {
+    background-color: #252830;
+    margin: 15px;
+    border-radius: 2px;
+    display: flex;
+}
+.header > .search-bar > .icon i {
+    font-size: 125%;
+    margin: 15px;
+    color: #868ca0;
+}
+.header > .search-bar > #search::placeholder {
+    color: #868ca0;
+}
+.header input {
+    color: #868ca0;
+    font-size: 145%;
+    font-weight: 650;
+    border: none;
+}
+.header input:focus {
+    outline: none;
+    color: #868ca0;
+}
+.header > .search-bar > #search {
+    color: white;
+    background-color: inherit;
+    border: none;
+}
+.header > .loggin-butns {
+    display: flex;
+    margin-top: 30px;
+}
+.header > .loggin-butns > .sign-up-btn > .sign {
+    background-color: #47cf73;
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+    padding: 15px 20px;
+    text-align: center;
+    transition: 0.1s;
+}
+.header > .loggin-butns > .sign-up-btn > .sign:hover {
+    background-color: #2fb45a;
+}
+.header > .loggin-butns > .log-in-btn > .log {
+    background-color: #444857;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    text-align: center;
+    margin-left: 10px;
+    transition: 0.1s;
+}
+.header > .loggin-butns > .log-in-btn > .log:hover {
+    background-color: #5a6074;
+}

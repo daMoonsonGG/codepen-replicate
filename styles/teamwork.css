@@ -1,0 +1,37 @@
+.teamwork {
+    position: relative;
+    color: white;
+    margin-top: 90px;
+    background-color: #1e1f26;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.teamwork > .description {
+    color: #c7c9d3;
+    margin-left: 330px;
+    margin-right: 330px;
+    margin-bottom: 35px;
+}
+.green-btn {
+    background-color: #47cf73;
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+    padding: 15px 20px;
+    text-align: center;
+    transition: 0.1s;
+}
+.green-btn:hover {
+    background-color: #2fb45a;
+}
+.teamwork > .subtitle {
+    margin-top: 60px;
+}
+.linear-img-2 {
+    margin-top: -45px;
+    margin-left: 1180px;
+}

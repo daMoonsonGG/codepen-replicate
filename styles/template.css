@@ -1,0 +1,5 @@
+.two-wraps-content {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    background-color: #131417;
+}

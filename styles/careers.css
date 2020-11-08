@@ -1,0 +1,84 @@
+.careers {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.careers > .description {
+    margin-top: 130px;
+}
+.careers > .description p {
+    margin-bottom: 35px;
+    margin-right: 170px;
+}
+.careers > .some-jobs {
+    margin-left: -120px;
+}
+.careers > .some-jobs > .first-job {
+    border-bottom: 2px solid #1e1f26;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 1px;
+    border-radius: 6px;
+    margin-right: 300px;
+    transform: 0.1s;
+}
+.careers > .some-jobs > .first-job:hover {
+    background-color: #1e1f26;
+}
+.careers > .some-jobs > .second-job {
+    border-bottom: 2px solid #1e1f26;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 1px;
+    border-radius: 6px;
+    margin-right: 300px;
+    transform: 0.1s;
+}
+.careers > .some-jobs > .second-job:hover {
+    background-color: #1e1f26;
+}
+.careers > .some-jobs > .third-job {
+    border-bottom: 2px solid #1e1f26;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 1px;
+    border-radius: 6px;
+    margin-right: 300px;
+    transform: 0.1s;
+}
+.careers > .some-jobs > .third-job:hover {
+    background-color: #1e1f26;
+}
+.careers > .some-jobs > .fourth-job {
+    border-bottom: 2px solid #1e1f26;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 1px;
+    border-radius: 6px;
+    margin-right: 300px;
+    transform: 0.1s;
+}
+.careers > .some-jobs > .fourth-job:hover {
+    background-color: #1e1f26;
+}
+.careers > .some-jobs > .more-jobs {
+    margin-top: 15px;
+    padding-left: 10px;
+    border-bottom: 2px transparent #1e1f26;
+    border-radius: 6px;
+}
+.careers > .some-jobs > .more-jobs a{
+    font-size: 1rem;
+    color: #0ebeff;
+    transform: 0.1s;
+}
+.careers > .some-jobs > .more-jobs a:hover {
+    color: white;
+}

@@ -1,0 +1,62 @@
+.topics-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 80px;
+    text-align: center;
+    position: relative;
+}
+.topics-wrap img {
+    width: 130px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.topics-wrap > .sass-topic > .logo img {
+    margin-bottom: 55px;
+}
+.more-blue-links {
+    text-decoration: none;
+    color: #76daff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transform: 0.1s;
+}
+.more-blue-links:hover {
+color: white;
+}
+.topics-wrap > .react-topic {
+    background-color: #2c303a;
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+.topics-wrap > .vue-topic {
+    background-color: #2c303a;
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+.topics-wrap > .tailwind-topic {
+    background-color: #2c303a;
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+.topics-wrap > .sass-topic {
+    background-color: #2c303a;
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+.topics-wrap > .gsap-topic {
+    background-color: #2c303a;
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+.topics-wrap > .react-topic {
+    background-color: #2c303a;
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+.more-topics {
+    text-align: left;
+    color: white;
+}
